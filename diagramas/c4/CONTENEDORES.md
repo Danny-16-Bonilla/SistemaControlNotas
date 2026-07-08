@@ -1,4 +1,4 @@
-```markdown
+```text
 ## 2. Modelo C4 - Diagrama de Contenedores (Nivel 2)
 
 ```mermaid
