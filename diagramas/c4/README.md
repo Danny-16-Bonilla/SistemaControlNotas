@@ -23,6 +23,12 @@ graph TD
     class System azulClaro;
     class ExtSystem gris;
 
+```markdown
+---
+
+## 2. Modelo C4 - Diagrama de Contenedores (Nivel 2)
+
+```mermaid
 graph TD
     UserCont[Usuario / Cliente]
 
