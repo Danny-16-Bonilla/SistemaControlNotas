@@ -3,9 +3,6 @@ Espacio para los diagramas C4 Model de Freisser Arce.
 
 ---
 
-## 1. Modelo C4 - Contexto (Nivel 1)
-
-```mermaid
 graph TD
     User[Usuario / Cliente]
     Admin[Administrador del Sistema]
@@ -23,13 +20,7 @@ graph TD
     class System azulClaro;
     class ExtSystem gris;
 
-```markdown
----
-
-## 2. Modelo C4 - Diagrama de Contenedores (Nivel 2)
-
-```mermaid
-graph TD
+    graph TD
     UserCont[Usuario / Cliente]
 
     subgraph Sistema TIC [Límite del Sistema]
