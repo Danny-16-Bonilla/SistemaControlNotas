@@ -21,7 +21,7 @@ El repositorio está organizado de la siguiente manera para facilitar la colabor
 
 ## Equipo de Trabajo (Fase II)
 
-- **Integrante 1 - Dany Bonilla**: Coordinador de Repositorio y Documentación.
+- **Integrante 1 - Dany Bonilla**: Coordinador de Repositorio.
 - **Integrante 2 - Nelson Alvarez**: Responsable de Diagramas UML.
 - **Integrante 3 - Freisser Arce**: Responsable de Modelado C4.
 - **Integrante 4 - Julian Brenes**: Responsable de Registros de Decisión de Arquitectura (ADR).
