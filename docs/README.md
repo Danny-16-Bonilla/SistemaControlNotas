@@ -1,5 +1,9 @@
 # 📂 Centro de Documentación del Sistema SGCE
 
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXI2b3k0OTZwaHh6MnZsYzdtbW9jOXliajU4YXFhejQ3Y21nN3VqcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" alt="Documentation GIF" width="500">
+</p>
+
 Bienvenido al centro principal de documentación del **Sistema de Gestión y Control de Notas Estudiantiles (SGCE)**. En este directorio se centralizan la especificación de requisitos, las historias de usuario, los registros de decisiones técnicas y los manuales operativos.
 
 ---
