@@ -62,6 +62,15 @@ El proyecto está organizado de forma modular. Utilice la siguiente tabla para n
 
 ---
 
+## 📝 Historial de Cambios Resumido
+
+| Versión | Fecha | Descripción de Cambios Principales |
+| :--- | :--- | :--- |
+| **v1.1.0** | Jul 21, 26 | Entrega Fase II: Estructuración de la carpeta `/docs`, adición de diagramas UML/C4, registros ADR y manuales de usuario/administración. |
+| **v1.0.0** | Jun 18, 26 | Entrega Fase I: Definición de la visión del sistema, requisitos funcionales/no funcionales e historias de usuario iniciales. |
+
+---
+
 ## 👥 Equipo de Trabajo y Responsabilidades
 
 | Integrante | Rol en el Proyecto | Usuario GitHub |
