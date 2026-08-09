@@ -4,7 +4,6 @@
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHQ4djJydmhjNjQzdHF3Y24yMGh2OTIwbGl4dmpkdTZhZGY1aTNxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Developer Coding GIF" width="550">
 </p>
 
-> **Expediente Documental del Proyecto - Fase II**
 
 Bienvenido al repositorio oficial del proyecto **SGCE**. Este sistema web está diseñado para optimizar, automatizar y auditar la gestión, control y consulta de calificaciones académicas en instituciones de educación superior, sustituyendo los procesos manuales por una solución centralizada, trazable y segura.
 
