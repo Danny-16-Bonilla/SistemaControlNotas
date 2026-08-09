@@ -1,5 +1,9 @@
 # 📘 Manual de Usuario - SGCE
 
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW43dXZrMWY5NDNlNXp6ZWN2OHU3eXZlaWltb2N6NnlkNjVleXZlNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" alt="User Guide GIF" width="500">
+</p>
+
 ## 1. Objetivo del Sistema
 Centralizar y automatizar el registro, seguimiento y reporte de calificaciones universitarias para erradicar inconsistencias del registro manual y garantizar la trazabilidad académica.
 
@@ -37,4 +41,5 @@ Centralizar y automatizar el registro, seguimiento y reporte de calificaciones u
 
 ## 7. Preguntas Frecuentes (FAQ)
 * **¿Qué hago si mi nota digitada es incorrecta?**  
+  Si el acta aún está abierta, el docente puede modificarla directamente en el sistema. Si el acta ya se cerró, el estudiante debe solicitar una revisión desde el apartado de consulta para habilitar el flujo formal.
   Contacte al profesor o envíe una solicitud en el menú *'Solicitar Revisión'*.
