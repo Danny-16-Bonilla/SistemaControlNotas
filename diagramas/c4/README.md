@@ -1,21 +1,40 @@
-El modelo C4 es una metodología que permite representar un sistema mediante diferentes niveles de diagramas, comenzando desde una visión general y avanzando progresivamente hacia los componentes internos del sistema.
+Modelo C4
+Descripción
 
-En este caso, el primer diagrama corresponde al C4 – Modelo de Contexto, Nivel 1. Su objetivo principal es mostrar el sistema desde una perspectiva general, identificando a las personas que interactúan con él y los sistemas externos con los que tiene comunicación.
+El modelo C4 es una metodología utilizada para representar y documentar la arquitectura de un sistema de software. Su objetivo es mostrar de manera clara cómo está compuesto el sistema, quién interactúa con él y cómo se relacionan sus diferentes elementos.
 
-En el diagrama se identifican cuatro elementos principales. El primero es el Usuario o Cliente, quien utiliza el sistema para realizar las diferentes funciones que este ofrece. El segundo es el Administrador del Sistema, encargado de gestionar, configurar y supervisar el funcionamiento del sistema.
+El modelo permite representar la arquitectura utilizando diferentes niveles de detalle, comenzando con una visión general del sistema y avanzando progresivamente hacia sus componentes internos.
 
-El tercer elemento es el Sistema de Información TIC, que representa el sistema que se está desarrollando. Este constituye el elemento central del diagrama, ya que tanto los usuarios como los administradores interactúan directamente con él.
+Nivel 1: Modelo de Contexto
+Descripción
 
-Finalmente, se encuentran los Servicios o APIs de Terceros. Estos representan sistemas externos que pueden proporcionar información o servicios que el sistema necesita. La comunicación entre el sistema y estos servicios puede consistir en consultar información o enviar datos.
+El Nivel 1: Modelo de Contexto proporciona una visión general del sistema. En este nivel se identifican los principales usuarios que interactúan con el sistema y los sistemas o servicios externos que tienen alguna relación con él.
 
-Las flechas del diagrama representan las relaciones entre los diferentes elementos. Por ejemplo, la relación entre el Usuario y el Sistema indica que el usuario utiliza el sistema, mientras que la relación del Administrador representa las actividades de gestión y configuración. Por otro lado, la conexión entre el Sistema de Información TIC y los servicios externos representa el intercambio de información con otras plataformas.
+El objetivo principal es comprender qué personas utilizan el sistema, cuál es el sistema principal y con qué elementos externos se comunica.
 
-El diagrama fue elaborado utilizando Mermaid, una herramienta que permite crear diagramas mediante código. Esto facilita que el diagrama pueda mantenerse y modificarse fácilmente dentro de plataformas como GitHub.
+Elementos principales
+Usuario / Cliente: Persona que utiliza el sistema para realizar diferentes operaciones.
+Administrador del Sistema: Persona encargada de gestionar, configurar y supervisar el sistema.
+Sistema de Información TIC: Sistema principal que proporciona las funcionalidades necesarias para los usuarios.
+Servicios / APIs de Terceros: Sistemas externos que pueden proporcionar información o servicios al sistema.
+Relaciones
 
-En conclusión, este primer nivel del modelo C4 permite obtener una visión general de la arquitectura del sistema, sin entrar todavía en detalles sobre cómo está programado internamente. Su función es identificar claramente quién utiliza el sistema, cuál es el sistema principal y con qué elementos externos se comunica
+El Usuario / Cliente utiliza el Sistema de Información TIC para acceder a sus diferentes funcionalidades.
 
-# Modelado C4
-Espacio para los diagramas C4 Model de Freisser Arce.
+El Administrador del Sistema interactúa con el sistema para realizar tareas de gestión, configuración y administración.
+
+El Sistema de Información TIC puede comunicarse con Servicios o APIs de Terceros para consultar información o enviar datos.
+
+Comunicación
+
+Las principales relaciones pueden resumirse de la siguiente manera:
+
+Usuario → Sistema: utiliza las funcionalidades disponibles.
+Administrador → Sistema: gestiona y configura el sistema.
+Sistema → Servicios externos: consulta o envía información.
+Interpretación
+
+Este nivel permite comprender el sistema desde una perspectiva general, sin entrar todavía en detalles sobre su funcionamiento interno. Es útil para identificar los actores y elementos externos que forman parte del entorno del sistema.
 
 ---
 
