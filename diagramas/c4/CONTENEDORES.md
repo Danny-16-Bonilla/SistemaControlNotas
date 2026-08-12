@@ -40,18 +40,7 @@ El **Usuario / Cliente** se encuentra fuera del límite porque representa una pe
 
 ---
 
-## Flujo de Información
-
-El diagrama representa el flujo general de comunicación de la siguiente manera:
-
-```text
-Usuario / Cliente
-        ↓
-Aplicación Web Frontend
-        ↓
-API Backend
-        ↓
-Base de Datos
+ahora con este 
 
 ```mermaid
 graph TD
