@@ -17,4 +17,3 @@ graph TD
     class User,Admin azulOscuro;
     class System azulClaro;
     class ExtSystem gris;
-
