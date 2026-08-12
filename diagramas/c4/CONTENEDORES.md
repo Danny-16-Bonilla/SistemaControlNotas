@@ -54,3 +54,23 @@ API Backend
 Base de Datos
 
 mermaid graph TD User[Usuario / Cliente] Admin[Administrador del Sistema] System[Sistema de Información TIC] ExtSystem[Servicios / APIs de Terceros] User -->|Usa el sistema para| System Admin -->|Gestiona y configura| System System -->|Consulta / Envía datos a| ExtSystem classDef azulOscuro fill:#08427B,stroke:#032F55,color:#fff; classDef azulClaro fill:#1168BD,stroke:#0B4E8F,color:#fff; classDef gris fill:#999999,stroke:#666666,color:#fff; class User,Admin azulOscuro; class System azulClaro; class ExtSystem gris;
+
+graph TD
+ 
+    UserCont["Usuario / Cliente"]
+ 
+    subgraph SistemaTIC["Límite del Sistema"]
+        WebApp["Aplicación Web Frontend\nReact / Angular / HTML-CSS"]
+        API["API Backend\nNode.js / .NET / Spring Boot"]
+        DB[("Base de Datos\nSQL Server / PostgreSQL")]
+    end
+ 
+    UserCont -->|Interactúa con la interfaz| WebApp
+    WebApp -->|Consume servicios vía HTTPS/JSON| API
+    API -->|Persiste y consulta datos| DB
+ 
+    classDef azulOscuro fill:#08427B,stroke:#032F55,color:#fff;
+    classDef contenedor fill:#438DD5,stroke:#2B659B,color:#fff;
+ 
+    class UserCont azulOscuro;
+    class WebApp,API,DB contenedor;
