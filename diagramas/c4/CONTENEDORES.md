@@ -1,5 +1,3 @@
-analizame esto # Modelo C4
-
 ## Nivel 2: Modelo de Contenedores
 
 ### Descripción
