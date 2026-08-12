@@ -101,10 +101,6 @@ En este nivel se descompone el **Sistema de Información TIC** en sus principale
 
 ---
 
-## Código del diagrama
-
-El siguiente código Mermaid permite generar el diagrama C4 de contexto:
-
 ```mermaid
 graph TD
     User[Usuario / Cliente]
