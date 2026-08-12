@@ -40,8 +40,6 @@ El **Usuario / Cliente** se encuentra fuera del límite porque representa una pe
 
 ---
 
-ahora con este 
-
 ```mermaid
 graph TD
  
