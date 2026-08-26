@@ -35,7 +35,7 @@ El proyecto está organizado de forma modular. Utilice la siguiente tabla para n
 | **Despliegue y Servidor** | Requisitos, instalación y plan de rollback | [🚀 `docs/DESPLIEGUE.md`](./docs/DESPLIEGUE.md) |
 | **Respaldo y Recuperación** | Políticas de backup, frecuencia y procedimiento | [💾 `docs/RESPALDO_Y_RECUPERACION.md`](./docs/RESPALDO_Y_RECUPERACION.md) |
 | **Notas de Versión** | Historial de entregas, cambios y correcciones | [📋 `docs/NOTAS_DE_VERSION.md`](./docs/NOTAS_DE_VERSION.md) |
-| Manual de Usuario | Guía paso a paso para estudiantes y docentes | 📘 [`docs/MANUAL_USUARIO.md`](docs/MANUAL_USUARIO.md) |
+
 ---
 
 ### 2. Diagramación y Arquitectura Visual
