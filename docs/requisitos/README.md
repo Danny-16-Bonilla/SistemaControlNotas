@@ -35,11 +35,14 @@ Calidad de código y pruebas: Apoyo en la identificación de casos borde (edge c
 Estructuración documental: Apoyo en la organización coherente y profesional del expediente documental de la Fase III.
 Análisis Crítico y Responsabilidad Humana
 A pesar de la agilidad que aportan las herramientas de IA, la supervisión humana fue imprescindible para refactorizar la arquitectura según los estándares del proyecto, garantizar la seguridad en la gestión de contraseñas y tokens de autenticación, y validar que la lógica de cálculo de promedios ponderados se ajustara a los reglamentos académicos reales.
+
+
 5. Conclusiones
 Integración Exitosa: Se consolidó la Fase III integrando todo el expediente documental, unificando el trabajo de análisis (Fase I) y diseño/desarrollo (Fase II).
 Estructura Escalable: La separación por capas y el uso de patrones limpios garantizan que el sistema pueda escalar fácilmente a futuro.
 Control de Versiones y Trazabilidad: El trabajo organizado mediante GitHub facilitó la colaboración en equipo y la trazabilidad de cambios en cada entrega.
-6. Referencias Bibliográficas (APA 7ª ed.)
+
+6. Referencias Bibliográficas 
 Bass, L., Clements, P., & Kazman, R. (2021). Software architecture in practice (4th ed.). Addison-Wesley Professional.
 Pressman, R. S., & Maxim, B. R. (2019). Software engineering: A practitioner's approach (9th ed.). McGraw-Hill Education.
 Sommerville, I. (2016). Software engineering (10th ed.). Pearson.
