@@ -90,3 +90,15 @@ El proyecto está organizado de forma modular. Utilice la siguiente tabla para n
 * **Arquitectura de Software:** Cliente-Servidor (SPA Web + REST API)
 * **Modelado Visual:** UML 2.5 y C4 Model
 - **Modelado Visual**: UML y C4 Model
+
+---
+
+##  Reflexión sobre el uso correcto de la Inteligencia Artificial en la programación
+
+La Inteligencia Artificial se ha convertido en una herramienta de gran utilidad para el desarrollo de software, ya que permite facilitar tareas como la generación de código, la identificación de errores, la documentación y la búsqueda de posibles soluciones. Sin embargo, su uso debe realizarse de manera responsable y consciente.
+
+En programación, utilizar IA correctamente no significa copiar y pegar código sin comprenderlo. El desarrollador debe analizar, probar y adaptar cada solución propuesta, verificando que sea correcta, segura y adecuada para las necesidades del proyecto. La IA debe utilizarse como un **asistente que fortalece nuestras capacidades**, no como un reemplazo del razonamiento lógico y los conocimientos adquiridos.
+
+También es importante reconocer que una respuesta generada por IA puede contener errores o soluciones que no se adapten completamente al contexto del proyecto. Por esta razón, el programador mantiene la responsabilidad sobre el código que incorpora, sus decisiones técnicas y los resultados obtenidos.
+
+En conclusión, el uso correcto de la IA en la programación consiste en aprovechar sus ventajas sin perder la capacidad de **pensar, analizar, aprender y resolver problemas por cuenta propia**. Cuando se utiliza de forma ética y responsable, la Inteligencia Artificial puede convertirse en una herramienta que mejora la productividad, el aprendizaje y la calidad del desarrollo de software.
