@@ -1,43 +1,17 @@
-@startuml
-skinparam linetype ortho
+graph TD
+    User["Usuario / Cliente"]
+    Admin["Administrador del Sistema"]
+    System["Sistema de Información TIC"]
+    ExtSystem["Servicios / APIs de Terceros"]
 
-entity "Aviones" as Aviones {
-  * Matricula : PK
-  --
-  Modelo
-  Anhoinsc
-}
+    User -->|Usa el sistema para| System
+    Admin -->|Gestiona y configura| System
+    System -->|Consulta / Envía datos a| ExtSystem
 
-entity "Pilotos" as Pilotos {
-  * Pasaporte : PK
-  --
-  Nombre
-  Nacionalidad
-  Edad
-  Correo
-  Telefono
-}
+    classDef azulOscuro fill:#08427B,stroke:#032F55,color:#fff;
+    classDef azulClaro fill:#1168BD,stroke:#0B4E8F,color:#fff;
+    classDef gris fill:#999999,stroke:#666666,color:#fff;
 
-entity "Paquetes" as Paquetes {
-  * Codigo : PK
-  --
-  Peso
-  Descripcion
-  Destino
-}
-
-entity "Receptores" as Receptores {
-  * id : PK
-  --
-  Nombre
-  Clave
-  Correo
-  Telefono
-}
-
-' Relaciones con cardinalidades
-Aviones }|--|{ Pilotos : "tiene (N:N)"
-Aviones ||--o{ Paquetes : "lleva (1:N)"
-Receptores ||--o{ Paquetes : "tiene (1:N)"
-
-@enduml
+    class User,Admin azulOscuro;
+    class System azulClaro;
+    class ExtSystem gris;
