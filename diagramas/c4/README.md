@@ -1,17 +1,36 @@
-graph TD
-    User["Usuario / Cliente"]
-    Admin["Administrador del Sistema"]
-    System["Sistema de Información TIC"]
-    ExtSystem["Servicios / APIs de Terceros"]
+```mermaid
+erDiagram
+    AVIONES {
+        string Matricula PK "Clave"
+        string Modelo
+        string Anhoinsc
+    }
 
-    User -->|Usa el sistema para| System
-    Admin -->|Gestiona y configura| System
-    System -->|Consulta / Envía datos a| ExtSystem
+    PILOTOS {
+        string Pasaporte PK "Clave"
+        string Nombre
+        string Nacionalidad
+        int Edad
+        string Correo
+        string Telefono
+    }
 
-    classDef azulOscuro fill:#08427B,stroke:#032F55,color:#fff;
-    classDef azulClaro fill:#1168BD,stroke:#0B4E8F,color:#fff;
-    classDef gris fill:#999999,stroke:#666666,color:#fff;
+    PAQUETES {
+        string Codigo PK "Clave"
+        float Peso
+        string Descripcion
+        string Destino
+    }
 
-    class User,Admin azulOscuro;
-    class System azulClaro;
-    class ExtSystem gris;
+    RECEPTORES {
+        string id PK "Clave"
+        string Nombre
+        string Clave
+        string Correo
+        string Telefono
+    }
+
+    AVIONES ||--o{ PAQUETES : "lleva (1:N)"
+    AVIONES }|--|{ PILOTOS : "tiene (N:N)"
+    RECEPTORES ||--o{ PAQUETES : "tiene (1:N)"
+```
