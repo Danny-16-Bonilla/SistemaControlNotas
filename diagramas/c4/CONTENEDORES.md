@@ -1,4 +1,5 @@
-```mermaiderDiagram
+```mermaid
+erDiagram
     OFICINA {
         codof PK
         lugar
